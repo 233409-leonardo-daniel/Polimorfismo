@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vego.historiasusuario.Controller.MenuController">
+   <children>
+      <Button fx:id="agregar" layoutX="484.0" layoutY="174.0" mnemonicParsing="false" onMouseClicked="#onClickagregar" prefHeight="36.0" prefWidth="142.0" text="Agregar Estudiante">
+         <font>
+            <Font name="Sylfaen" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="editar" layoutX="253.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#onClickeditar" prefHeight="36.0" prefWidth="135.0" text="Editar Informacion">
+         <font>
+            <Font name="Sylfaen" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="salir" layoutX="521.0" layoutY="415.0" mnemonicParsing="false" onMouseClicked="#onClicksalir" prefHeight="36.0" prefWidth="89.0" text="Salir">
+         <font>
+            <Font name="SimSun" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="ver" layoutX="14.0" layoutY="174.0" mnemonicParsing="false" onMouseClicked="#onClickver" prefHeight="36.0" prefWidth="135.0" text="Ver Estudiantes">
+         <font>
+            <Font name="Sylfaen" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
